@@ -1,3 +1,5 @@
+
+/*Style html elements using there tags*/
 h1, h2, h3, p{
   font-family: Helvetica;
 }
@@ -14,14 +16,18 @@ h2{
   color: white;
 }
 
+/*Style html elements using there tags along with the class names*/
 h1, h2, h3, .price{
   font-weight: bold;
 }
 
+/*Style html elements using the class names*/
 .price{
   color: blue;
 }
 
+
+/*Style html elements using there IDs*/
 #brushes{
   background-color: mediumspringgreen;
 }
