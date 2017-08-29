@@ -14,8 +14,12 @@ h2{
   color: white;
 }
 
-h1, h2, h3{
+h1, h2, h3, .price{
   font-weight: bold;
+}
+
+.price{
+  color: blue;
 }
 
 #brushes{
@@ -28,9 +32,4 @@ h1, h2, h3{
 
 #paint{
   background-color: skyblue;
-}
-
-.price{
-  color: blue;
-  font-weight: bold;
 }
